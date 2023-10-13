@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  color: black;
+  text-align: left;
+  margin: 0;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.img-wrapper {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.about-section {
+  width: 50%;
+  max-width: 720px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+img {
+  border-radius: 20px;
+  margin: 4px;
+}
+.img-right-first {
+  width: 30%;
+}
+.img-right-second {
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+h2 {
+  font-size: 3rem;
+}
+h4 {
+  font-weight: 400;
+}
+.experience {
+  font-size: 3rem;
+  font-weight: 700;
+}
+p{
+  font-size: 18px;
+  font-weight: 500;
+}
